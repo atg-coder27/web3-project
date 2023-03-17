@@ -21,7 +21,14 @@ const Navbar = () => {
           <NavBarItem key={item + index} title={item} />
         ))}
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Login
+          <a href="/login">
+            Login
+          </a>
+        </li>
+        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+          <a href="/signup">
+            Register
+          </a>
         </li>
       </ul>
       <div className="flex relative">
